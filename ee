@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name         Codechef IO Copy
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       nikhilksingh97
+// @match        https://mystudent.schoolsaccount.nyc/grades*
+// @grant        none
+// ==/UserScript==
+
+document.querySelector("#collapse12_11X127 > div > table > tbody > tr:nth-child(20) > td:nth-child(2) > div").textContent = "ME"
+});
